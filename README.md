@@ -1,11 +1,13 @@
 # web-app-lint
 
-React项目lint配置:
+## React项目lint配置
+
 eslint,prettier,husky,commitlint
 
 src中的app.tsx为测试使用,故没有安装react依赖
 
 **eslint**:检测不符合lint规范的代码,eslint 的 --fix 的参数可以用来进行自动修复
+
 **husky**:在代码提交的阶段来保证代码规范
 
 husky使用:
