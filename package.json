@@ -13,6 +13,11 @@
     "type": "git",
     "url": "git+https://github.com/zzoeyh/web-app-lint.git"
   },
+  "lint-staged": {
+    "**/*.{js,jsx,tsx,ts}": [
+      "eslint --fix"
+    ]
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -28,7 +33,8 @@
     "eslint": "^8.56.0",
     "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-react-hooks": "^4.6.2",
-    "husky": "^8.0.1"
+    "husky": "^8.0.1",
+    "lint-staged": "^15.2.7"
   },
   "dependencies": {
     "eslint-config-prettier": "^9.1.0",
